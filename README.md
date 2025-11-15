@@ -41,7 +41,7 @@ for i, row in enumerate(c):
 h_mat = np.array(h_dis).reshape(1,-1)
 d_min = np.min(np.sum(c[1:], axis=1))
 
-# H matrix (Parity-check matrix)
+# H matrix (Parity-check matrix) 
 h = p_mat[:, :3]
 hp = np.hstack((np.eye(n-k, dtype=int), h.T))
 ht = hp.T
