@@ -10,7 +10,7 @@ import numpy as np
 pb = [] # Parity matrix
 Ik = [] # I_K Matrix
 p = []
-m = []
+m = [].  
 h = []
 h_dis = []
 r_code = []
